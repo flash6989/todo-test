@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import "./App.css";
 import AddTodo from "./components/AddTodo/AddTodo";
 import Header from "./components/Header/Header";
 import TodoList from "./components/TodoList/TodoList";
 import { Container } from "@mui/material";
 import axios from "axios";
+import "./App.css";
 
 const url = process.env.REACT_APP_FETCH_URL;
 
@@ -50,7 +50,7 @@ function App() {
   console.log(todo);
 
   return (
-    <Container>
+    <Container className="App">
       <Header />
       <AddTodo addTodo={addTodo} todo={todo} setTodo={setTodo} />
       <TodoList
