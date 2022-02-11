@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": "l58pv09",
+      "title": "1 задание",
+      "status": true
+    },
+    {
+      "id": "cwv0q2p",
+      "title": "4 задание",
+      "status": true
+    },
+    {
+      "id": "84r313q",
+      "title": "2 задание",
+      "status": true
+    },
+    {
+      "id": "9ye3k83",
+      "title": "3 задание",
+      "status": true
+    }
+  ]
+}

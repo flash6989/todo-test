@@ -1,0 +1,17 @@
+.addTodoForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  margin: 17px 0;
+}
+
+.btn {
+  margin: 12px;
+}
+
+.input {
+  flex-grow: 1;
+  margin: 0px 30px;
+}
